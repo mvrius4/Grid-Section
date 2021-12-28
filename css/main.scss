@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+*, *::before, *::after {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 100%;
+    main {
+        display: grid;
+        gap: 1rem;
+        padding: 1rem;
+    }
+}
