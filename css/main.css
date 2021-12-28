@@ -32,6 +32,13 @@ body main {
   }
 }
 
+@media (max-width: 1000px) {
+  body main {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 body main .article {
   display: -webkit-box;
   display: -ms-flexbox;
